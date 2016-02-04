@@ -47,7 +47,8 @@ table {
 	border-spacing: 0;
 }
 
-h1, li {
+/* Start document css */
+h1, h2, li {
   font-family: Tahoma, Geneva, sans-serif;
 }
 
@@ -56,6 +57,18 @@ h1 {
   margin: 20px;
 }
 
+h2 {
+  background: linear-gradient(180deg, #e6b800, #ffe680);
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  font-size: 1.2em;
+  padding: 5px 10px;
+}
+
+h2:hover {
+  cursor: pointer;
+}
 .nav {
   background-color: blue;
 }
