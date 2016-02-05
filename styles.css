@@ -69,8 +69,17 @@ h2 {
 h2:hover {
   cursor: pointer;
 }
+
+li.spacer {
+  margin: 0 10px;
+}
+
+.content {
+  padding: 15px 15px;
+}
+
 .nav {
-  background-color: blue;
+  background-color: #6600cc;
 }
 
 .nav li {
@@ -79,10 +88,7 @@ h2:hover {
   vertical-align: top;
 }
 
-li.spacer {
-  margin: 0 20px;
-}
-
+/* Nav animation */
 .hvr-fade {
   display: inline-block;
   vertical-align: middle;
