@@ -48,7 +48,7 @@ table {
 }
 
 /* Start document css */
-h1, h2, li {
+h1, h2, h3, li, td {
   font-family: Tahoma, Geneva, sans-serif;
 }
 
@@ -70,12 +70,27 @@ h2:hover {
   cursor: pointer;
 }
 
+td {
+  padding-right: 10px;
+}
+
+table, ul {
+  margin: 10px 10px;
+}
+
 li.spacer {
   margin: 0 10px;
 }
 
 .content {
   padding: 15px 15px;
+  float: left;
+  width: 60%;
+}
+
+.pic h3 {
+  font-size: 1.5em;
+  margin: 5px;
 }
 
 .nav {
@@ -86,6 +101,12 @@ li.spacer {
   display: inline-block;
   font-size: 1.2em;
   vertical-align: top;
+}
+
+.pic {
+  float: right;
+  margin: 15px 0;
+  width: 30%;
 }
 
 /* Nav animation */
